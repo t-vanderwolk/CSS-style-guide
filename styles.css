@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Itim&family=Merriweather:ital@0;1&family=Oswald&family=Work+Sans:wght@400;500;800&display=swap');
+header{
+    text-align: center;
+
+
+}
+.navbar{
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: gray;
+    margin-top: 0;
+}
+.primary-colors{
+    display: flex;
+ justify-content:center;
+
+ border: 1px solid black;
+ justify-content: space-between;
+}
+.secondary-colors{
+    display: flex;
+    justify-content:space-around;
+   
+    border: 1px solid black;
+
+}
+.tertiary-colors{
+    display: flex;
+    justify-content:space-evenly;
+   
+    border: 1px solid black;
+
+}
+.fonts{
+ list-style: none;
+ display: inline;
+
+ 
+}
+.sizes{
+    padding:14%;
+list-style: none;
+border: 1px solid black;
+    float: left;
+}
+.family{
+    
+    padding:10%;
+    border: 1px solid black;
+  list-style: none;
+    float: right;
+}
+.font-size{
+   text-align: left;
+}
+.font-family{
+    text-align: right;
+}
+#red{
+    background-color: red;
+    padding:10%;
+    border-radius: 75%;
+
+}
+#blue{
+    background-color:#0000ff;
+    padding:10%;
+    border-radius: 75%;
+}
+#yellow{
+    background-color: yellow;
+    padding:10%;
+    border-radius: 75%;
+}
+#purple{
+background-color: #ff00ff;
+padding:10%;
+border-radius: 75%;
+}
+
+#orange{
+background-color: #ff7900;
+padding:10%;
+border-radius: 75%;
+}
+#green{
+    background-color: #008000;
+    padding:10%;
+    border-radius: 75%;
+    }
+#blue-purple{
+    background-color: rgb(155, 41, 236);
+
+}
+#blue-green{
+    background-color: teal;
+
+}
+#yellow-green{
+    background-color: chartreuse;
+
+}
+#orange-yellow{
+    background-color: rgb(255, 217, 0);
+
+}
+#orange-red{
+    background-color: rgb(255, 64, 0);
+
+}
+#red-purple{
+    background-color: rgb(255, 0, 153);
+
+}
+#style-1{
+font-family: 'Abril Fatface', cursive;
+}
+#style-2{
+    font-family: 'Merriweather', serif;
+}
+#style-3{
+    font-family: 'Dancing Script', cursiv
+
+}
+#style-4{
+    font-family: 'Oswald', sans-serif;
+
+}
+#style-5{
+    font-family: 'Itim', cursive;
+
+}
+#style-6{
+    font-family: 'Work Sans', sans-serif;
+}
