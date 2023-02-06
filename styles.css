@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Itim&family=Merriweather:ital@0;1&family=Oswald&family=Work+Sans:wght@400;500;800&display=swap');
 header{
     text-align: center;
-
-
 }
 .navbar{
     display:flex;
@@ -34,18 +32,42 @@ header{
 
 }
 .fonts{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+  
+}
+.header-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.sizes{
+    list-style: none;
+    border: 1px solid black;
+
+}
+.family{
+    list-style: none;
+    border: 1px solid black;
+    
+}
+
+/* .fonts{
  list-style: none;
  display: inline;
+ padding:5%;
 
  
 }
 .sizes{
-    padding:14%;
+    padding:10%;
 list-style: none;
 border: 1px solid black;
-    float: left;
-}
-.family{
+    float: left; */
+/* } */
+/* .family{
     
     padding:10%;
     border: 1px solid black;
@@ -53,11 +75,16 @@ border: 1px solid black;
     float: right;
 }
 .font-size{
-   text-align: left;
+   float: left;
 }
 .font-family{
-    text-align: right;
-}
+    float: right;
+
+} */
+/* header.text-style{
+text-align: center;
+display: inline-block;
+} */
 #red{
     background-color: red;
     padding:10%;
@@ -114,7 +141,7 @@ border-radius: 75%;
     background-color: rgb(255, 0, 153);
 
 }
-#style-1{
+ #style-1{
 font-family: 'Abril Fatface', cursive;
 }
 #style-2{
@@ -134,4 +161,9 @@ font-family: 'Abril Fatface', cursive;
 }
 #style-6{
     font-family: 'Work Sans', sans-serif;
-}
+} 
+/* #font-headers{
+    display: inline;
+    margin: 2%;
+    padding:5%;
+} */
